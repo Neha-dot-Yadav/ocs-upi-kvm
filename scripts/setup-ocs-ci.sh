@@ -85,7 +85,7 @@ python3.9 -m venv $WORKSPACE/venv
 source $WORKSPACE/venv/bin/activate		# activate named python venv
 
 pip3 install --upgrade pip setuptools==63.2.0 wheel Cython==3.0.0a10
-pip3 install gevent==20.9.0 --no-build-isolation
+pip3 install gevent==21.12.0 --no-build-isolation
 pip3 install -r requirements.txt 
 pip3 install yq
 pip3 install boto3
